@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Gin Application</title>
+</head>
+<body>
+<form method="post" action="/login">
+    <h1>Login</h1>
+    <input type="text" name="userId"><br>
+    <input type="password" name="password">
+    <input type="submit" value="ログイン">
+    {{.text}}
+    </form>
+</body>
+</html>
